@@ -11,7 +11,8 @@ import { HeaderComponent } from './components/header.component';
   ],
   imports: [
     CommonModule,
-    HeaderRoutingModule
+    HeaderRoutingModule,
+    HeaderComponent
   ],
   exports:[ HeaderComponent ]
 })
